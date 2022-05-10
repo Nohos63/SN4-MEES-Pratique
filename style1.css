@@ -1,0 +1,117 @@
+body{
+    background-image:linear-gradient(270deg, #614385, #516395);
+    text-align: center;
+    margin-top: -1%;
+    font-size: x-large;
+    color: white;
+}
+
+.header{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  text-decoration-line: underline;
+}
+
+.txt{
+    text-align: center;
+}
+
+.slider{
+    margin-bottom: 25px;
+}
+
+td{
+    border: 5px solid white;
+    border-collapse: collapse;
+    font-size: 23px;
+}  
+
+th{
+    border: 5px solid white;
+    border-collapse: collapse;
+    font-size: 19px;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 115px; /* Full-width */
+  height: 5px; /* Specified height */
+  background: white; /* Grey background */
+  outline: none; /* Remove outline */
+}
+
+.slidecontainer {
+  width: 130px; /* Width of the outside container */
+}
+
+.slidecontainerA {
+  font-size: medium;
+  font-weight: bold;
+  height: 65px; 
+  width: 130px; 
+}
+
+table {
+  width: 910px;
+  height: 240px;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 100px;
+  background: white; /*background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: white; /*background */
+  cursor: pointer; /* Cursor on hover */
+}
+a{
+  text-decoration: none;
+  color: aquamarine;
+  text-decoration: underline
+}
+#vérif{
+  color: darkslateblue;
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  display: none;
+}
+#total{
+  color:yellow;
+}
+#messagebas{
+  margin: auto;
+  margin-top: 40px;
+  width: 90%;
+  background-color: rgba(50, 50, 50, 0.5);
+  height: 150px;
+  border-radius: 50px;
+  font-size: 18px;
+  display: none;
+}
+#liencahier{
+ display: none;
+}
+
+

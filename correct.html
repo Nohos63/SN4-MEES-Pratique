@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+
+    <title> Corrigez-vous! </title>
+  
+</head>
+<body>
+    <h1 class="header"> TEMPS DE LA CORRECTION! </h1>
+
+    <div id="messagehaut">
+        <p id="veuillez"> Veuillez entrer votre code d'abord </p>
+        <p> (Tout en majuscules, incluant le tiret)</p>
+        <input type="text"  id="soncode"> <br> <br>
+        <input type="button" value="Entrer" onclick="validate(2)">
+        </div>
+
+    <p id="txt"> 
+        Veuillez entrer vos réponses ci-dessous. <br>
+        Vous aurez accès au corrigé complet et à l'ensemble de la banque de question disonibles ... <br>
+        si vous atteingnez le seuil minimal. <br>
+        Il s'agit d'avoir au moins 4 bonnes réponses dans la partie A et 3 bonnes réponses dans la partie B. <br>
+        Si vous avez besoin d'aide, n'hésitez pas d'écrire à un prof ou à Sohon. <br>
+        <a href= "home.html"> Cliquez ici pour retourner à la page menu </a>
+    </p>
+    <div id="réponsesA">
+        <h1> PARTIE A</h1>
+        <ol>
+            <li><button id="1A" onclick="answer(1, 1)"> A </button>  
+                <button id="1B" onclick="answer(1, 2)"> B </button>
+                <button id="1C" onclick="answer(1, 3)"> C </button>
+                <button id="1D" onclick="answer(1, 4)"> D </button>
+                <button id="1E" onclick="answer(1, 5)"> E </button>
+            </li>
+            <li><button id="2A" onclick="answer(2, 1)"> A </button>  
+                <button id="2B" onclick="answer(2, 2)"> B </button>
+                <button id="2C" onclick="answer(2, 3)"> C </button>
+                <button id="2D" onclick="answer(2, 4)"> D </button>
+                <button id="2E" onclick="answer(2, 5)"> E </button>
+            </li>
+            <li><button id="3A" onclick="answer(3, 1)"> A </button>  
+                <button id="3B" onclick="answer(3, 2)"> B </button>
+                <button id="3C" onclick="answer(3, 3)"> C </button>
+                <button id="3D" onclick="answer(3, 4)"> D </button>
+                <button id="3E" onclick="answer(3, 5)"> E </button>
+            </li>
+            <li><button id="4A" onclick="answer(4, 1)"> A </button>  
+                <button id="4B" onclick="answer(4, 2)"> B </button>
+                <button id="4C" onclick="answer(4, 3)"> C </button>
+                <button id="4D" onclick="answer(4, 4)"> D </button>
+                <button id="4E" onclick="answer(4, 5)"> E </button>
+            </li>
+            <li><button id="5A" onclick="answer(5, 1)"> A </button>  
+                <button id="5B" onclick="answer(5, 2)"> B </button>
+                <button id="5C" onclick="answer(5, 3)"> C </button>
+                <button id="5D" onclick="answer(5, 4)"> D </button>
+                <button id="5E" onclick="answer(5, 5)"> E </button>
+            </li>
+            <li><button id="6A" onclick="answer(6, 1)"> A </button>  
+                <button id="6B" onclick="answer(6, 2)"> B </button>
+                <button id="6C" onclick="answer(6, 3)"> C </button>
+                <button id="6D" onclick="answer(6, 4)"> D </button>
+                <button id="6E" onclick="answer(6, 5)"> E </button>
+            </li>
+            <li><button id="7A" onclick="answer(7, 1)"> A </button>  
+                <button id="7B" onclick="answer(7, 2)"> B </button>
+                <button id="7C" onclick="answer(7, 3)"> C </button>
+                <button id="7D" onclick="answer(7, 4)"> D </button>
+                <button id="7E" onclick="answer(7, 5)"> E </button>
+            </li>
+            <li><button id="8A" onclick="answer(8, 1)"> A </button>  
+                <button id="8B" onclick="answer(8, 2)"> B </button>
+                <button id="8C" onclick="answer(8, 3)"> C </button>
+                <button id="8D" onclick="answer(8, 4)"> D </button>
+                <button id="8E" onclick="answer(8, 5)"> E </button>
+            </li>         
+        </ol>
+    </div>
+    <div id="réponsesB">
+        <h1> PARTIE B</h1>
+        <ol>
+            <li><input class="inputRN" type="number" id="RN1"></li>
+            <li><input class="inputRN" type="number" id="RN2"></li>
+            <li><input class="inputRN" type="number" id="RN3"></li>
+            <li><input class="inputRN" type="number" id="RN4"></li>
+            <li><input class="inputRN" type="number" id="RN5"></li>
+            <li><input class="inputRN" type="number" id="RN6"></li>
+            <li><input class="inputRN" type="number" id="RN7"></li>
+            <li><input class="inputRN" type="number" id="RN8"></li>
+        </ol>
+    </div>
+    <div id="entrerréponse">
+        <button id="enter" onclick="corriger()"> Cliquez ici pour avoir votre résultat </button>
+        <p id="results"> </p>
+        <p id="msgresults">  </p>
+        <a href="" id="lien1"> Lien vers la liste de toutes les questions </a>
+        <br> <br>
+        <a href="" id="lien2"> Lien vers le corrigé </a>
+    </div>
+
+
+  <script src="logic.js"></script>
+</body>
+</html>

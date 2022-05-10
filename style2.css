@@ -1,0 +1,75 @@
+body{
+    background-image:linear-gradient(270deg, #614385, #516395);
+    text-align: center;
+    margin-top: -1%;
+    font-size: x-large;
+    color: white;
+}
+
+.header{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  text-decoration-line: underline;
+}
+
+#txt{
+    text-align: center;
+    font-size: medium;
+    opacity: 1;
+    height: 150px;
+}
+#veuillez{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: aquamarine;
+  text-decoration: underline
+}
+
+#messagehaut{
+  margin: auto;
+  width: 90%;
+  background-color: rgba(50, 50, 50, 0.5);
+  height: 160px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+#questionsA, #questionsB{
+  height: 250px;
+  width: 130px;
+  background-color: aquamarine;
+  border-radius: 30px;
+  border: solid 5px black;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 150px;
+  display: none;
+}
+h2{
+  color: black;
+}
+.boutonquestion{
+  height: 25px;
+  width: 41px;
+  background-color: white;
+  color: blue;
+  border-radius: none;
+  appearance: none;
+}
+#questionsB{
+  position: absolute;
+  right: 30px;
+  top: 325px;
+}
+#affichequestion{
+  height: 360px;
+  width: 640px;
+  border: aquamarine dashed 10px;
+  margin: auto;
+  text-align: center;
+  margin-top: -315px;
+  background-color: none;
+  display: none;
+}

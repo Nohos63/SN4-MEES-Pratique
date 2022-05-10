@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+
+    <title> Créez votre formatif</title>
+  
+</head>
+<body>
+    <h1 class="header">CRÉEZ VOTRE PRATIQUE UNIQUE</h1>
+    <p class="txt">Ceci n’est pas juste une pratique ordinaire. <br>
+        Vous créez votre examen, selon ce que vous voulez pratiquez. <br>
+        Ainsi, ce site web peut générer jusqu’à 1.57 x 10²² pratiques différentes. <br>
+        Dans ce formatif, il y aura deux parties, chacune de 8 questions. <br>
+        La partie A est à choix de réponses, alors que la partie B est à développement, avec une réponse numérique entre 1 et 999. 
+    </p>
+ 
+    <div style="overflow-x: auto;" id="tableau"><table>
+        <tr><th id="casevide"></th>
+        <th >Algèbre et factorisation</th>
+        <th >La parabole</th>
+        <th >La fonction partie entière</th>
+        <th >Géométrie</th>
+        <th >Trigonométrie</th>
+        <th >Géometrie analytique (droites)</th></tr>
+
+        <tr>
+            <td class="slidecontainerA"> PARTIE A</td>
+            <td><div class="cmb" id="cmb1">0</div><div class="slidecontainer"><input type="range" min= 0 max= 4 value= 0 class="slider" id="slider1"></div></td>
+            <td><div class="cmb" id="cmb2">0</div><div class="slidecontainer"><input type="range" min= 0 max= 4 value= 0 class="slider" id="slider2"></div></td>
+            <td><div class="cmb" id="cmb3">0</div><div class="slidecontainer"><input type="range" min= 0 max= 4 value= 0 class="slider" id="slider3"></div></td>
+            <td><div class="cmb" id="cmb4">0</div><div class="slidecontainer"><input type="range" min= 0 max= 4 value= 0 class="slider" id="slider4"></div></td>
+            <td><div class="cmb" id="cmb5">0</div><div class="slidecontainer"><input type="range" min= 0 max= 4 value= 0 class="slider" id="slider5"></div></td>
+            <td><div class="cmb" id="cmb6">0</div><div class="slidecontainer"><input type="range" min= 0 max= 4 value= 0 class="slider" id="slider6"></div></td>
+        </tr>
+
+        <tr>
+            <td class="slidecontainerA">PARTIE B</td>
+            <td><div class="cmb" id="cmb7">0</div><div class="slidecontainer"><input type="range" min = 0 max = 4 value = 0 class="slider" id="slider7"></div></td>
+            <td><div class="cmb" id="cmb8">0</div><div class="slidecontainer"><input type="range" min = 0 max = 4 value = 0 class="slider" id="slider8"></div></td>
+            <td><div class="cmb" id="cmb9">0</div><div class="slidecontainer"><input type="range" min = 0 max = 4 value = 0 class="slider" id="slider9"></div></td>
+            <td><div class="cmb" id="cmb10">0</div><div class="slidecontainer"><input type="range" min = 0 max = 4 value = 0 class="slider" id="slider10"></div></td>
+            <td><div class="cmb" id="cmb11">0</div><div class="slidecontainer"><input type="range" min = 0 max = 4 value = 0 class="slider" id="slider11"></div></td>
+            <td><div class="cmb" id="cmb12">0</div><div class="slidecontainer"><input type="range" min = 0 max = 4 value = 0 class="slider" id="slider12"></div></td>
+        </tr>
+
+        <h3 class="total" id="total">Partie A: 0/8  Partie B: 0/8</h3>
+    </table></div>
+        <br>
+    <button id="vérif" onclick="generate()"> GÉNÉRER UN CODE D'EXAMEN</button>
+    <br>
+    <a href="" id="liencahier">  Télécharger le cahier de réponse </a>
+
+    <div id="messagebas">
+    <p id="generatedcode" class="messageb"> Votre code est: </p>
+    <p> ASSUREZ-VOUS DE LE PRENDRE EN NOTE DANS LE CAHIER DE RÉPONSE À TÉLÉCHARGER</p>
+    <p>Vous pouvez maintentat passer à la partie "Faites votre pratique"</p>  
+    <a href="home.html" > Retourner à la page menu</a>
+    </div>
+    <script src="listener.js"></script>
+  <script src="logic.js"></script>
+</body>
+</html>

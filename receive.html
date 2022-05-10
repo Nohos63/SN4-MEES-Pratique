@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+    <title> Pratiquez-vous! </title>
+  
+</head>
+<body>
+    <h1 class="header"> PRATIQUEZ-VOUS AVEC VOTRE PROPRE FORMATIF </h1>
+
+    <div id="messagehaut">
+        <p id="veuillez"> Veuillez entrer votre code </p>
+        <p> (Tout en majuscules, incluant le tiret)</p>
+        <input type="text"  id="soncode"> <br> <br>
+        <input type="button" value="Entrer" onclick="validate(1)">
+        </div>
+
+    <p id="txt"> 
+        <a href="https://portail.cje.qc.ca/pluriportail/fr/Main.srf?P=Travaux&Q=NoEcoleParCours%3D501%26NoEtapeParCours%3D0"> Télécharger le cahier de réponse </a> <br>
+        Il est conseillé d'imprimer le cahier de réponse. <br>
+        Sinon, vous pouvez exporter le PDF dans Notability, puis insérer des captures d'écran de chaque question. <br>
+        Dans le pire des cas, faites "Écran partagé" <br>
+        N'OUBLIEZ PAS DE PRENDRE EN NOTE LES TAGS DE QUESTION. (Exemple TRIG-RN2) <br>
+        Si vous avez des questions: <br>
+        - Sohon Ye / Les profs de math pour le contenu des questions <br>
+        - Ahmed Bella / Les techniciens pour des problèmes technologiques <br>
+        <a href= "home.html"> Cliquez ici pour retourner à la page menu lorsque vous aurez terminé toutes les questions</a>
+    </p>
+
+    <div id="questionsA"> <h2>Partie A </h2>
+    <input type="button" class="boutonquestion" value="A1" id="A1" onclick="qstA(1)">
+    <input type="button" class="boutonquestion" value="A2" id="A2" onclick="qstA(2)">
+    <input type="button" class="boutonquestion" value="A3" id="A3" onclick="qstA(3)">
+    <input type="button" class="boutonquestion" value="A4" id="A4" onclick="qstA(4)">
+    <input type="button" class="boutonquestion" value="A5" id="A5" onclick="qstA(5)">
+    <input type="button" class="boutonquestion" value="A6" id="A6" onclick="qstA(6)">
+    <input type="button" class="boutonquestion" value="A7" id="A7" onclick="qstA(7)">
+    <input type="button" class="boutonquestion" value="A8" id="A8" onclick="qstA(8)">
+    </div>
+
+    <div id="questionsB"> <h2>Partie B </h2>
+        <input type="button" class="boutonquestion" value="B1" id="B1" onclick="qstB(1)">
+        <input type="button" class="boutonquestion" value="B2" id="B2" onclick="qstB(2)">
+        <input type="button" class="boutonquestion" value="B3" id="B3" onclick="qstB(3)">
+        <input type="button" class="boutonquestion" value="B4" id="B4" onclick="qstB(4)">
+        <input type="button" class="boutonquestion" value="B5" id="B5" onclick="qstB(5)">
+        <input type="button" class="boutonquestion" value="B6" id="B6" onclick="qstB(6)">
+        <input type="button" class="boutonquestion" value="B7" id="B7" onclick="qstB(7)">
+        <input type="button" class="boutonquestion" value="B8" id="B8" onclick="qstB(8)">
+    </div>
+    
+    <div id="affichequestion"> ON FAIT COMME SI IL Y AVAIT LES IMAGES</div>
+  <script src="logic.js"></script>
+</body>
+</html>
