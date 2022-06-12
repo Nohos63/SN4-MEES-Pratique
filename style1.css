@@ -10,10 +10,12 @@ body{
   padding-top: 10px;
   padding-bottom: 0px;
   text-decoration-line: underline;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .txt{
     text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .slider{
@@ -24,33 +26,35 @@ td{
     border: 5px solid white;
     border-collapse: collapse;
     font-size: 23px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }  
 
 th{
     border: 5px solid white;
     border-collapse: collapse;
     font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 /* The slider itself */
 .slider {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
-  width: 115px; /* Full-width */
+  width: 138px; /* Full-width */
   height: 5px; /* Specified height */
   background: white; /* Grey background */
   outline: none; /* Remove outline */
 }
 
 .slidecontainer {
-  width: 130px; /* Width of the outside container */
+  width: 156px; /* Width of the outside container */
 }
 
 .slidecontainerA {
   font-size: medium;
   font-weight: bold;
   height: 65px; 
-  width: 130px; 
+  width: 156px; 
 }
 
 table {
@@ -99,6 +103,7 @@ a{
 }
 #total{
   color:yellow;
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 #messagebas{
   margin: auto;
@@ -113,5 +118,6 @@ a{
 #liencahier{
  display: none;
 }
+
 
 
