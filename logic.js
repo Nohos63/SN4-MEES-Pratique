@@ -225,7 +225,7 @@ function corriger() {
         if((codePartieA[i])[1] == userAnswerA[i]){
             bonnesRéponsesA += 1
         }
-        if((codePartieB[i])[3] == userAnswerB[i]){
+        if((codePartieB[i])[3] == btoa(userAnswerB[i])){
             bonnesRéponsesB += 1
         }
     }
