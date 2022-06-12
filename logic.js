@@ -1,49 +1,48 @@
 // Toutes les variables (arrays)
 
-const code2 = ["trigCM1", "A", "ganaRN1", "69", "2"]
-const code3 = ["paraCM1", "A", "ganaRN3", "69", "3"]
-const code4 = ["ganaCM3", "A", "paraRN2", "69", "4"]
-const code5 = ["paraCM2", "A", "geomRN2", "69", "5"]
-const code6 = ["algeCM2", "A", "geomRN1", "69", "6"]
-const code7 = ["trigCM2", "A", "ganaRN4", "69", "7"]
-const code8 = ["escaCM4", "A", "algeRN3", "69", "8"]
-const code9 = ["geomCM2", "A", "ganaRN2", "69", "9"]
-const codeA = ["paraCM3", "A", "paraRN3", "69", "A"]
-const codeB = ["geomCM4", "A", "trigRN4", "69", "B"]
-const codeC = ["trigCM3", "A", "algeRN4", "69", "C"]
-const codeE = ["algeCM1", "A", "paraRN4", "69", "E"]
-const codeH = ["escaCM3", "A", "escaRN3", "69", "H"]
-const codeK = ["escaCM2", "A", "escaRN2", "69", "K"]
-const codeL = ["geomCM1", "A", "paraRN1", "69", "L"]
-const codeN = ["algeCM4", "A", "escaRN4", "69", "N"]
-const codeP = ["ganaCM2", "A", "geomRN3", "69", "P"]
-const codeR = ["paraCM4", "A", "algeRN2", "69", "R"]
-const codeS = ["escaCM1", "A", "trigRN1", "69", "S"]
-const codeT = ["ganaCM4", "A", "geomRN4", "69", "T"]
-const codeU = ["geomCM3", "A", "trigRN3", "69", "U"]
-const codeW = ["trigCM4", "A", "escaRN1", "69", "W"]
-const codeX = ["algeCM3", "A", "trigRN2", "69", "X"]
-const codeY = ["ganaCM1", "A", "algeRN1", "69", "Y"]
+const code2 = ["trigCM1", "D", "ganaRN1", "NTIw", "2"]
+const code3 = ["paraCM1", "D", "ganaRN3", "MjE5", "3"]
+const code4 = ["ganaCM3", "D", "paraRN2", "NzA=", "4"]
+const code5 = ["paraCM2", "B", "geomRN2", "NzU2", "5"]
+const code6 = ["algeCM2", "B", "geomRN1", "ODg1", "6"]
+const code7 = ["trigCM2", "D", "ganaRN4", "NjA1", "7"]
+const code8 = ["trigCM5", "B", "algeRN3", "MTI3", "8"]
+const code9 = ["geomCM2", "B", "ganaRN2", "NzQw", "9"]
+const codeA = ["paraCM3", "D", "paraRN3", "NjE4", "A"]
+const codeB = ["geomCM4", "C", "trigRN4", "NDI4", "B"]
+const codeC = ["trigCM3", "E", "algeRN4", "MTA4", "C"]
+const codeE = ["algeCM1", "D", "paraRN4", "NzIx", "E"]
+const codeH = ["geomCM5", "D", "ganaRN5", "NTQw", "H"]
+const codeK = ["paraCM5", "A", "trigRN5", "NzQ0", "K"]
+const codeL = ["geomCM1", "D", "paraRN1", "MTYw", "L"]
+const codeM = ["ganaCM5", "B", "algeRN5", "NTMz", "M"]
+const codeN = ["algeCM4", "C", "geomRN5", "ODI4", "N"]
+const codeP = ["ganaCM2", "E", "geomRN3", "NTIw", "P"]
+const codeR = ["paraCM4", "D", "algeRN2", "Mzg0", "R"]
+const codeS = ["algeCM5", "C", "trigRN1", "MjIy", "S"]
+const codeT = ["ganaCM4", "D", "geomRN4", "MzA2", "T"]
+const codeU = ["geomCM3", "D", "trigRN3", "Mjk0", "U"]
+const codeW = ["trigCM4", "C", "paraRN5", "Mzcx", "W"]
+const codeX = ["algeCM3", "E", "trigRN2", "ODgx", "X"]
+const codeY = ["ganaCM1", "E", "algeRN1", "NzU=", "Y"]
 
 
-const algeCM = [codeE, code6, codeX, codeN]
-const paraCM = [code3, code5, codeA, codeR]
-const escaCM = [codeS, codeK, codeH, code8]
-const geomCM = [codeL, code9, codeU, codeB]
-const trigCM = [code2, code7, codeC, codeW]
-const ganaCM = [codeY, codeP, code4, codeT]
-const algeRN = [codeY, codeR, code8, codeC]
-const paraRN = [codeL, code4, codeA, codeE]
-const escaRN = [codeW, codeK, codeH, codeN]
-const geomRN = [code6, code5, codeP, codeT]
-const trigRN = [codeS, codeX, codeU, codeB]
-const ganaRN = [code2, code9, code3, code7]
+const algeCM = [codeE, code6, codeX, codeN, codeS]
+const paraCM = [code3, code5, codeA, codeR, codeK]
+const geomCM = [codeL, code9, codeU, codeB, codeH]
+const trigCM = [code2, code7, codeC, codeW, code8]
+const ganaCM = [codeY, codeP, code4, codeT, codeM]
+const algeRN = [codeY, codeR, code8, codeC, codeM]
+const paraRN = [codeL, code4, codeA, codeE, codeW]
+const geomRN = [code6, code5, codeP, codeT, codeN]
+const trigRN = [codeS, codeX, codeU, codeB, codeK]
+const ganaRN = [code2, code9, code3, code7, codeH]
 
-const partieA = [algeCM, paraCM, escaCM, geomCM, trigCM, ganaCM]
-const partieB = [algeRN, paraRN, escaRN, geomRN, trigRN, ganaRN]
+const partieA = [algeCM, paraCM, geomCM, trigCM, ganaCM]
+const partieB = [algeRN, paraRN, geomRN, trigRN, ganaRN]
 
 const tout = [code2, code3, code4, code5, code6, code7, code8, code9, 
-codeA, codeB, codeC, codeE, codeH, codeK, codeL, codeN, codeP, codeR, 
+codeA, codeB, codeC, codeE, codeH, codeK, codeL, codeM, codeN, codeP, codeR, 
 codeS, codeT, codeU, codeW, codeX, codeY]
 
 
@@ -63,9 +62,9 @@ function shuffle(array) {
 function generate() {
 codeExam = ""
 x = 0
-    for (i = 0; i < 6; i++) {
+    for (i = 0; i < 5; i++) {
         shuffle(partieA[i])
-        let tempArray = partieA[i].slice(4 - variables[i])
+        let tempArray = partieA[i].slice(5 - variables[i])
         let tempLength = tempArray.length
         if (tempLength > 0) {
             for (k = 0; k < tempLength; k++) {
@@ -80,9 +79,9 @@ x = 0
     }
     x = 0
     codeExam += "-"
-    for (i = 0; i < 6; i++) {
+    for (i = 0; i < 5; i++) {
         shuffle(partieB[i])
-        let tempArray = partieB[i].slice(4 - variables[i + 6])
+        let tempArray = partieB[i].slice(5 - variables[i + 5])
         let tempLength = tempArray.length
         if (tempLength > 0) {
             for (k = 0; k < tempLength; k++) {
@@ -120,14 +119,14 @@ codePartieA = []
 codePartieB = []
 for (i=0; i<8; i++) {
     lettreTempo = document.getElementById("soncode").value.substr(i, 1)
-        for (k=0; k<24; k++) {
+        for (k=0; k<25; k++) {
             if (lettreTempo == (tout[k])[4]){
                 codePartieA[i] = tout[k]
                 valide += 1 
             }
         }
     lettreTempo = document.getElementById("soncode").value.substr(i+9, 1)
-        for (k=0; k<24; k++) {
+        for (k=0; k<25; k++) {
             if (lettreTempo == (tout[k])[4]){
                 codePartieB[i] = tout[k]
                 valide += 1 
@@ -183,7 +182,8 @@ function qstA(number) {
     currentQuestion = boutonsQuestions[number-1]
     currentQuestion.style.color = "white"
     currentQuestion.style.backgroundColor = "blue"
-    document.getElementById("affichequestion").innerHTML = "Là, ça affiche la question du Tag: "+ (codePartieA[number-1])[0]
+    document.getElementById("affichequestion").innerHTML = ""
+    document.getElementById("affichequestion").style.backgroundImage = "url(ImagesQVF/"+(codePartieA[number-1])[0]+".jpg"
 } 
 function qstB(number) {
     currentQuestion.style.color = "blue"
@@ -191,7 +191,8 @@ function qstB(number) {
     currentQuestion = boutonsQuestions[number+7]
     currentQuestion.style.color = "white"
     currentQuestion.style.backgroundColor = "blue"
-    document.getElementById("affichequestion").innerHTML = "Là, ça affiche la question du Tag: "+ (codePartieB[number-1])[2]
+    document.getElementById("affichequestion").innerHTML = ""
+    document.getElementById("affichequestion").style.backgroundImage = "url(ImagesQVF/"+(codePartieB[number-1])[2]+".jpg"
 } 
 
 // CHANGER LA RÉPONSE DU USER (PARTIE CORRECT)
@@ -234,6 +235,9 @@ function corriger() {
         document.getElementById("msgresults").innerHTML = "Vous avez maintentant accès au corrigé et à la liste de questions"
         document.getElementById("lien1").style.display = "inherit"
         document.getElementById("lien2").style.display = "inherit"
+        document.getElementById("lien1").href = atob("aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xWG5ZVU92a1k2MU5FOS1RNVlNTVdPT1dzbGlJTkFlUU4vdmlldz91c3A9c2hhcmluZw==")
+        document.getElementById("lien2").href = atob("aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xd0c1SEZ1ZUxMUnNNYlMta2FzdUROU0Rkc0ROZFNRd1Ivdmlldz91c3A9c2hhcmluZw==")
+  
     } else {
         document.getElementById("results").style.color = "red"
         document.getElementById("msgresults").innerHTML = "Vous n'avez pas atteint le seuil minimal... N'hésitez pas à aller chercher de l'aide..."
